@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pin Chiang's Home page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="home">
-        <!-- <img src="taiwan.jpg" alt="Taiwan Picture" width="2000"> -->
-        <h2>
-        <p>Hi I'm Pin Chiang</p>
-        </h2>
-    </div>
-
-    <div class="about-me">
-        <div class="left">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pin Chiang's Home Page</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#home">首頁</a>
+      <a href="#middle">課程感想</a>
+      <a href="#contact">聯絡我</a>
+    </nav>
+    <section id="home" class="home">
+      <div class="circle">
+        <h1>嗨，我是 Pin</h1>
+      </div>
+    </section>
+    
+    <section id="middle" class="middle">
+      <div class="left"></div>
+      <div class="right">
+        <div class="about-me-text">
+            <h2>我是一個軟體工程師</h3>
+            <h4>基於想 多認識不同工作領域的朋友 和 幫助積極進取的人 參加 WWC 的活動</h4>
+            <br>
+            <br>
+            <h2>WWC - Coding Train the Trainer 課程感想</h3>
+          <ul>
+              <li>對小朋友上課而言，比想像中困難很多，要考慮到很多狀況</li>
+              <ul>
+                  <li>很容易分心，或做自己的事</li>
+                  <li>活潑的小孩也常會打斷講師的授課</li>
+              </ul>
+              <li>課前的準備的部分，也很花時間</li>
+              <li>從技術的角度來看，學會了一些 HTML/CSS 的基本知識</li>
+          </ul>
         </div>
-        <div class="right">
-            <div class="text">
-                    <h3>我是軟體工程師</h3>
-        
-                    <h3>課程心得</h3>
-                    <ul>
-                        <li>對小朋友上課，比想像中困難很多</li>
-                        <li>Software programming</li>
-                        <li>Web Surfing</li>
-                    </ul>
-            </div>
+      </div>
+    </section>
 
-        </div>
-       
-    </div>
-    <div class="contact">
-        <div class="contact-content">
-                <img src="link.svg" alt="Link">
-                <a href="https://facebook.com/pin.chiang1">http://facebook.com/pin.chiang1</a>
-                <img src="phone.svg" alt="Phone">
-                0958-926730
-        </div>
-
-    </div>
-</body>
+    <section id="contact" class="contact">
+      <div class="contact-content">
+        <h3>聯絡我</h3>
+        <a href="">
+          <img src="link.svg" />
+          <span>好朋友都知道</span>
+        </a>
+        <a href=""><img src="phone.svg" />0958-9267XX</a>
+      </div>
+    </section>
+    
+  </body>
 </html>

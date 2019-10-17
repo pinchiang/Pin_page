@@ -10,8 +10,8 @@ body {
 nav {
   position: fixed;
   height: 50px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  width: 95%;
+  background-color: rgba(82, 37, 12, 0.658);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -19,7 +19,7 @@ nav {
 nav a {
   margin-left: 10px;
   margin-right: 10px;
-  color: #4136e0;
+  color: #ffffff;
   text-decoration: none;
 }
 section {
